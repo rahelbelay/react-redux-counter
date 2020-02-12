@@ -9,7 +9,7 @@ import { actionReset, actionDecrement, actionIncrement } from '../actions';
 
 function mapStateToProps(state) {
     return {
-        count: state.count
+        count: state
 
     }
 }
